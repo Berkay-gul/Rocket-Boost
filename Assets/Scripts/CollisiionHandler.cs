@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CollisiionHandler : MonoBehaviour
 {
+    // Veriables
     [SerializeField] float LoadDeley =2f;
     [SerializeField] AudioClip SuccesSFX;
     [SerializeField] AudioClip CrashSFX;
