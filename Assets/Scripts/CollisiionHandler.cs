@@ -60,7 +60,7 @@ public class CollisiionHandler : MonoBehaviour
 
     private void StartSuccesSeguence()
     {
-        //todo add sfx and vsf.
+        
         isControllable = false;
         audioSource.Stop();
         audioSource.PlayOneShot(SuccesSFX);
@@ -71,7 +71,7 @@ public class CollisiionHandler : MonoBehaviour
 
     void startCrashSeguence()
     {
-        //todo add sfx and vsf.
+        
         isControllable = false;
         audioSource.Stop();
         audioSource.PlayOneShot(CrashSFX);
